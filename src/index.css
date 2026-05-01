@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@theme {
+  --font-manrope: "Manrope", sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --color-primary: #d48a94;
+  --color-primary-light: #f5b3bc;
+  --color-bg-light: #fdfbf7;
+  --color-bg-dark: #221910;
+  --color-accent: #e99ba5;
+  --color-soft-gray: #f2efea;
+}
+
+:root {
+  font-family: var(--font-manrope);
+  background-color: var(--color-bg-light);
+  color: var(--color-bg-dark);
+}
+
+.hero-gradient {
+  background: linear-gradient(rgba(253, 251, 247, 0.9), rgba(253, 251, 247, 0.9));
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-primary) !important;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+}

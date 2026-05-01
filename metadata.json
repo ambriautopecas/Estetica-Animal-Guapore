@@ -1,0 +1,8 @@
+{
+  "name": "Estética Animal Guaporé - tons pasteis",
+  "description": "O melhor banho e tosa de Ribeirão Preto e Bonfim Paulista. Oferecemos cuidado especializado, hospedagem e carinho para o seu pet.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
